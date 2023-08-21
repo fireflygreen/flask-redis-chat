@@ -17,7 +17,7 @@ redis_pwd=os.environ.get('REDIS_PWD')
 
 app = Flask(__name__)
 app.secret_key = 'asdf'
-r = redis.StrictRedis(host=redis_host, port=redis_port,password=redis_pwd, 0, charset='utf-8', decode_responses=True)
+r = redis.StrictRedis(host=redis_host, port=redis_port,password=redis_pwd, db=0, charset='utf-8', decode_responses=True)
 
 
 def event_stream():
