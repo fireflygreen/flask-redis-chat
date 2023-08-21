@@ -1,10 +1,10 @@
 click==6.7
-Flask==0.12.2
+Flask
 gevent
 greenlet
-gunicorn==19.7.1
+gunicorn
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2
 MarkupSafe
 redis==2.10.6
-Werkzeug==0.12.2
+Werkzeug
