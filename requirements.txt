@@ -6,5 +6,5 @@ gunicorn
 itsdangerous
 Jinja2
 MarkupSafe
-redis==2.10.6
+redis
 Werkzeug
